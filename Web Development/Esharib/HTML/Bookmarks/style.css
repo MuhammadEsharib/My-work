@@ -1,0 +1,9 @@
+body{
+    background-color: white
+    ;
+    animation: alternate;
+}
+
+h1{
+    background-color: aqua;
+}
