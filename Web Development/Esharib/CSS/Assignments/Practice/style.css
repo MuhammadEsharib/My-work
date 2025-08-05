@@ -1,23 +1,163 @@
-div.contact {
+.navbar {
+  background-color: #333;
+  color: white;
   padding: 10px;
-  margin: 10px;
-  border: 5px;
-  background-color: #c7bfbf;
+  text-shadow: #000000;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.navbar li {
+  margin: 0 15px;
+  display: inline;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  align-self: start;
   box-sizing: border-box;
 }
-div.contact h2 {
-  color: #333;
-  font-size: 29px;
-  display: flex;
+.navbar a:hover {
+  background-color: #5a4f4f;
+  transition: ease 0.65s;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 2px solid #fefffe;
+  transform: scale(1);
 }
-div.contact h2:hover {
-  margin-right: 10px;
-  font-size: 24px;
-  cursor: pointer;
-  text-decoration: underline;
-  transition: ease-in-out 0.3s;
+div#container h1 {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: cyan 8px 4px 8px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 800px;
 }
-div.contact p {
-  color: #555;
+div#container p {
+  color: #0c0a0a;
+  padding: 10px;
   font-size: 16px;
+  text-shadow: #000000;
+  font-family: serif;
+  font-weight: lighter;
+}
+span#introduction > h2,
+span#about-myself > h2,
+span#hobbies > h2 {
+  padding: 10px;
+  font-size: 40px;
+  margin: 10px;
+  text-align: center;
+}
+span#introduction > p,
+span#about-myself > p,
+span#hobbies > p {
+  padding: 8px;
+  margin: 8px;
+  text-align: justify;
+}
+span#introduction > p {
+  font-size: 20px;
+  font-family: Arial;
+  text-align: justify;
+  line-height: 1.5;
+}
+span#about-myself > p {
+  font-size: 20px;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  line-height: 1.5;
+}
+span#hobbies > :last-child {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  line-height: 1.5;
+}
+div#contact h2 {
+  padding: 10px;
+  font-size: 40px;
+  margin: 10px;
+  text-align: center;
+}
+div#contact p {
+  padding: 12px;
+  margin: 8px;
+  text-align: justify;
+  line-height: 1.5;
+}
+footer p.copyright {
+  color: rgb(4, 4, 4);
+  opacity: 0.7;
+  text-align: center;
+  padding: 10px;
+  position: static;
+  bottom: 0;
+  width: 100%;
+  font-size: 24px;
+}
+footer p {
+  text-align: justify;
+  font-size: 16px;
+  color: #000000;
+  font: 1em sans-serif;
+  padding: 8px;
+  margin: 8px;
+}
+span#about-myself h2 {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: cyan 8px 4px 8px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 800px;
+}
+span#hobbies h2 {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: cyan 8px 4px 8px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 800px;
+}
+span#introduction h2 {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: cyan 8px 4px 8px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 800px;
+}
+div#contact h2 {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: cyan 8px 4px 8px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 800px;
 }

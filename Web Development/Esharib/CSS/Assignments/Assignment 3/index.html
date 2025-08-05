@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .div1 p {
+        margin: 0%;
+        align-items: flex-start;
+        padding: 2.2em;
+        text-align: left;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+      }
+      h1 {
+        padding: 10px;
+        margin: 10px;
+        width: 25vw;
+        font-size: 2em;
+        transform: translate(130%, 30%);
+        height: 5vh;
+        border: 6px solid gray;
+        border-radius: 50%;
+        color: white;
+        background-color: rgb(14, 17, 17);
+      }
+      h1:hover {
+        color: red;
+        cursor: pointer;
+        position: relative;
+      }
+      #svg-circle {
+        display: block;
+        margin: 20px auto;
+      }
+      #svg-circle:hover {
+        position: relative;
+        cursor: pointer;
+      }
+      .svg-square {
+        display: block;
+        margin: 20px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">
+      <h1>This is Html Assignment 3</h1>
+      <p>Here we will make circle using svg element:</p>
+      <svg id="svg-circle" width="200" height="200">
+        <circle cx="100" cy="100" r="100" fill="green" />
+      </svg>
+    </div>
+    <h2>Creating circle using div element:</h2>
+    <div id="circle"></div>
+    <div>
+      <h2>Creating square  using svg element:</h2>
+      <svg class="svg-square" width="200" height="200">
+        <rect x="0" y="0" width="200" height="200" fill="blue" />
+      </svg>
+    </div>
+    <h2>Creating square using div element:</h2>
+    <div id="square"></div>
+  </body>
+</html>
